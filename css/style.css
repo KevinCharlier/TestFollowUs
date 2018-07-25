@@ -1,0 +1,156 @@
+body{
+    background-color: rgba(186, 198, 192, 0.253);
+}
+
+.navbar-brand img {
+    max-height: 70px;
+}
+
+.bg-light {
+    background-color: rgb(71, 65, 67) !important;
+}
+
+#haut a {
+    color: #B1B1B1;
+}
+
+#haut img:hover,
+#haut a:hover {
+    opacity: 0.75;
+}
+
+header .row {
+    background-image: url(../img/bkg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    color: white;
+}
+
+header h2 {
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 400px;
+    font-size: 65px;
+    font-weight: 600;
+}
+
+#presentation h2, #prix h5 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+}
+
+.slogan {
+    display: flex;
+    min-height: 100vh;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+    header .row {
+        background-image: url(../img/bkg2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .slogan {
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+    .slogan h2{
+        font-size: 45px;
+        margin-bottom: 0px;
+    }
+    .bbq{
+        display: none;
+    }
+}
+#presentation {
+    padding-top: 50px;
+}
+
+#presentation .row{
+    min-height: calc(100vh - 120px);
+}
+
+#presentation .media span {
+    color: #F57476;
+    font-size: 3rem;
+    width: 4rem;
+    text-align: center;
+}
+
+#presentation .media {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: all 0.5s ease-in-out;
+}
+
+#presentation .media:hover {
+    background-color: rgba(95, 92, 137, 0.507);
+}
+
+.bbq {
+    min-height: calc(100vh - 70px);
+    background-image: url(../img/bbq.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.prix {
+    background-color: #d3dae4;
+    min-height: calc(100vh - 70px);
+}
+
+.prix span {
+    font-size: 5rem;
+    color: #17a2b8;
+}
+
+.prix h5{
+    font-size: 3rem;
+    color: #888;
+}
+
+.prix p {
+    font-size: 2rem;
+}
+
+#reservation {
+    min-height: calc(100vh - 70px);
+    background-image: url(../img/refresh.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#reservation .row{
+    min-height: calc(100vh - 70px);
+}
+
+.formulaire {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 2rem 1rem;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #999;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+footer a {
+    color: #999;
+    font-size: 2rem;
+    transition: all 0.2s ease-in-out;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: none;
+}
