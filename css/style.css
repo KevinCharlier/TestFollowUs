@@ -1,4 +1,4 @@
-body{
+body {
     background-color: rgba(186, 198, 192, 0.253);
 }
 
@@ -35,7 +35,8 @@ header h2 {
     font-weight: 600;
 }
 
-#presentation h2, #prix h5 {
+#presentation h2,
+#prix h5 {
     font-family: 'Dancing Script', cursive;
     font-size: 4rem;
 }
@@ -59,19 +60,20 @@ header h2 {
         text-align: center;
         align-items: center;
     }
-    .slogan h2{
+    .slogan h2 {
         font-size: 45px;
         margin-bottom: 0px;
     }
-    .bbq{
+    .bbq {
         display: none;
     }
 }
+
 #presentation {
     padding-top: 50px;
 }
 
-#presentation .row{
+#presentation .row {
     min-height: calc(100vh - 120px);
 }
 
@@ -111,7 +113,7 @@ header h2 {
     color: #17a2b8;
 }
 
-.prix h5{
+.prix h5 {
     font-size: 3rem;
     color: #888;
 }
@@ -128,7 +130,7 @@ header h2 {
     background-attachment: fixed;
 }
 
-#reservation .row{
+#reservation .row {
     min-height: calc(100vh - 70px);
 }
 
@@ -137,7 +139,7 @@ header h2 {
     padding: 2rem 1rem;
 }
 
-footer{
+footer {
     background-color: rgba(0, 0, 0, 0.8);
     color: #999;
     padding-top: 2rem;
